@@ -1,5 +1,5 @@
 import { dbContext } from '../db/DbContext'
-import { BadRequest, Forbidden } from '../utils/Errors'
+import { BadRequest } from '../utils/Errors'
 
 class PlanetsService {
   async getAll(query = {}) {
